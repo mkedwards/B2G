@@ -426,7 +426,7 @@
 	url = git://android.git.linaro.org/platform/frameworks/ex.git
 [submodule "glue/gonk/frameworks/base"]
 	path = glue/gonk/frameworks/base
-	url = git://github.com/cgjones/android-frameworks-base.git
+	url = git://github.com/mkedwards/frameworks__base.git
 [submodule "glue/gonk/hardware/libhardware_legacy"]
 	path = glue/gonk/hardware/libhardware_legacy
 	url = git://android.git.linaro.org/platform/hardware/libhardware_legacy.git
@@ -468,7 +468,7 @@
 	url = git://github.com/cgjones/android-skia.git
 [submodule "glue/gonk/build"]
 	path = glue/gonk/build
-	url = git://github.com/cgjones/android-build.git
+	url = git://github.com/mkedwards/android_build.git
 [submodule "glue/gonk/device/sample"]
 	path = glue/gonk/device/sample
 	url = git://android.git.linaro.org/device/sample.git
