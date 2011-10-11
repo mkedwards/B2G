@@ -484,9 +484,9 @@
 [submodule "glue/gonk/device/samsung/c1-common"]
 	path = glue/gonk/device/samsung/c1-common
 	url = git://github.com/mkedwards/android_device_samsung_c1-common.git
-[submodule "glue/gonk/external/bootmenu"]
-	path = glue/gonk/external/bootmenu
-	url = git://github.com/mkedwards/external__bootmenu.git
 [submodule "gaia"]
 	path = gaia
 	url = git://github.com/andreasgal/gaia.git
+[submodule "glue/gonk/external/bootmenu"]
+	path = glue/gonk/external/bootmenu
+	url = git://github.com/mkedwards/external__bootmenu.git
