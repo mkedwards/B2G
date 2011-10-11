@@ -52,9 +52,6 @@
 [submodule "glue/gonk/external/wpa_supplicant_6"]
 	path = glue/gonk/external/wpa_supplicant_6
 	url = git://github.com/mkedwards/external__wpa_supplicant_6.git
-[submodule "glue/gonk/external/quake"]
-	path = glue/gonk/external/quake
-	url = git://android.git.linaro.org/platform/external/quake.git
 [submodule "glue/gonk/external/srec"]
 	path = glue/gonk/external/srec
 	url = git://android.git.linaro.org/platform/external/srec.git
@@ -231,7 +228,7 @@
 	url = git://github.com/mkedwards/external__sqlite.git
 [submodule "glue/gonk/external/openssl"]
 	path = glue/gonk/external/openssl
-	url = git://android.git.linaro.org/platform/external/openssl.git
+	url = git://github.com/mkedwards/external__openssl.git
 [submodule "glue/gonk/external/nist-sip"]
 	path = glue/gonk/external/nist-sip
 	url = git://android.git.linaro.org/platform/external/nist-sip.git
@@ -496,3 +493,6 @@
 [submodule "glue/gonk/external/busybox"]
 	path = glue/gonk/external/busybox
 	url = git://github.com/mkedwards/external__busybox.git
+[submodule "glue/gonk/external/jsilver"]
+	path = glue/gonk/external/jsilver
+	url = git://github.com/mkedwards/external__jsilver.git
