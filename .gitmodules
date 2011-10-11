@@ -408,7 +408,7 @@
 	url = git://android.git.linaro.org/platform/system/vold.git
 [submodule "glue/gonk/system/core"]
 	path = glue/gonk/system/core
-	url = git://android.git.linaro.org/platform/system/core.git
+	url = git://github.com/mkedwards/system__core.git
 [submodule "glue/gonk/system/extras"]
 	path = glue/gonk/system/extras
 	url = git://android.git.linaro.org/platform/system/extras.git
@@ -484,6 +484,9 @@
 [submodule "glue/gonk/device/samsung/c1-common"]
 	path = glue/gonk/device/samsung/c1-common
 	url = git://github.com/mkedwards/android_device_samsung_c1-common.git
+[submodule "glue/gonk/external/bootmenu"]
+	path = glue/gonk/external/bootmenu
+	url = git://github.com/mkedwards/external__bootmenu.git
 [submodule "gaia"]
 	path = gaia
 	url = git://github.com/andreasgal/gaia.git
