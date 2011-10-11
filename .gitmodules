@@ -415,12 +415,6 @@
 [submodule "glue/gonk/device/common"]
 	path = glue/gonk/device/common
 	url = git://android.git.linaro.org/device/common.git
-[submodule "glue/gonk/device/samsung/crespo4g"]
-	path = glue/gonk/device/samsung/crespo4g
-	url = git://android.git.linaro.org/device/samsung/crespo4g.git
-[submodule "glue/gonk/device/samsung/crespo"]
-	path = glue/gonk/device/samsung/crespo
-	url = git://github.com/cgjones/android-device-crespo.git
 [submodule "glue/gonk/sdk"]
 	path = glue/gonk/sdk
 	url = git://android.git.linaro.org/platform/sdk.git
@@ -462,7 +456,7 @@
 	url = git://android.git.linaro.org/platform/bootable/recovery.git
 [submodule "glue/gonk/libcore"]
 	path = glue/gonk/libcore
-	url = git://android.git.linaro.org/platform/libcore.git
+	url = git://github.com/mkedwards/platform__libcore.git
 [submodule "glue/gonk/external/webkit"]
 	path = glue/gonk/external/webkit
 	url = git://github.com/cgjones/android-webkit.git
