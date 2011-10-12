@@ -339,7 +339,7 @@
 	url = git://android.git.linaro.org/platform/packages/apps/Tag.git
 [submodule "glue/gonk/packages/apps/Settings"]
 	path = glue/gonk/packages/apps/Settings
-	url = git://android.git.linaro.org/platform/packages/apps/Settings.git
+	url = git://github.com/mkedwards/packages__apps__Settings.git
 [submodule "glue/gonk/packages/apps/HTMLViewer"]
 	path = glue/gonk/packages/apps/HTMLViewer
 	url = git://android.git.linaro.org/platform/packages/apps/HTMLViewer.git
