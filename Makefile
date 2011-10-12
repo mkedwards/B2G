@@ -132,6 +132,10 @@ ifeq (samsung,$(KERNEL))
 	cp -p boot/kernel-android-samsung/arch/arm/boot/zImage $(GONK_PATH)/device/samsung/crespo/kernel && \
 	cp -p boot/kernel-android-samsung/drivers/net/wireless/bcm4329/bcm4329.ko $(GONK_PATH)/device/samsung/crespo/bcm4329.ko
 endif
+ifeq (galaxy-s2,$(KERNEL))
+	cp -p boot/kernel-android-galaxy-s2/arch/arm/boot/zImage $(GONK_PATH)/device/samsung/galaxys2/kernel && \
+	cp -p `find boot/kernel-android-galaxy-s2 -name \*.ko` $(GONK_PATH)/device/samsung/galaxys2
+endif
 
 OUT_DIR := $(GONK_PATH)/out/target/product/$(GONK)/system
 APP_OUT_DIR := $(OUT_DIR)/app
