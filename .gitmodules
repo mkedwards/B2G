@@ -180,7 +180,7 @@
 	url = git://android.git.linaro.org/platform/external/neven.git
 [submodule "glue/gonk/external/dnsmasq"]
 	path = glue/gonk/external/dnsmasq
-	url = git://android.git.linaro.org/platform/external/dnsmasq.git
+	url = git://github.com/mkedwards/external__dnsmasq.git
 [submodule "glue/gonk/external/tcpdump"]
 	path = glue/gonk/external/tcpdump
 	url = git://android.git.linaro.org/platform/external/tcpdump.git
