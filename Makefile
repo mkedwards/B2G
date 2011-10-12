@@ -121,8 +121,12 @@ flash-crespo4g: image
 	@$(call GONK_CMD,adb reboot bootloader && fastboot flashall -w)
 
 .PHONY: flash-galaxys2
-flash-galaxys2: image
+flash-galaxys2: image bootimg-hack
 	@adb reboot download && \
+	sleep 20 && \
+	$(HEIMDALL) flash --kernel $(GONK_PATH)/out/target/product/galaxys2/boot.img && \
+	sleep 60 && \
+	adb reboot download && \
 	sleep 20 && \
 	$(HEIMDALL) flash --factoryfs $(GONK_PATH)/out/target/product/galaxys2/system.img
 
