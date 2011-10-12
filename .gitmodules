@@ -1,6 +1,6 @@
 [submodule "gecko"]
 	path = gecko
-	url = git://github.com/cgjones/mozilla-central.git
+	url = git://github.com/mkedwards/mozilla-central.git
 [submodule "glue/gonk/bionic"]
 	path = glue/gonk/bionic
 	url = git://github.com/mkedwards/platform__bionic.git
