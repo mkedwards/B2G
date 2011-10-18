@@ -94,9 +94,6 @@
 [submodule "glue/gonk/external/freetype"]
 	path = glue/gonk/external/freetype
 	url = git://android.git.linaro.org/platform/external/freetype.git
-[submodule "glue/gonk/external/chromium"]
-	path = glue/gonk/external/chromium
-	url = git://android.git.linaro.org/platform/external/chromium.git
 [submodule "glue/gonk/external/libnfc-nxp"]
 	path = glue/gonk/external/libnfc-nxp
 	url = git://android.git.linaro.org/platform/external/libnfc-nxp.git
@@ -243,7 +240,7 @@
 	url = git://android.git.linaro.org/platform/external/safe-iop.git
 [submodule "glue/gonk/cts"]
 	path = glue/gonk/cts
-	url = git://android.git.linaro.org/platform/cts.git
+	url = git://github.com/mkedwards/android_cts.git
 [submodule "glue/gonk/prebuilt"]
 	path = glue/gonk/prebuilt
 	url = git://android.git.linaro.org/platform/prebuilt.git
@@ -274,9 +271,6 @@
 [submodule "glue/gonk/packages/providers/UserDictionaryProvider"]
 	path = glue/gonk/packages/providers/UserDictionaryProvider
 	url = git://android.git.linaro.org/platform/packages/providers/UserDictionaryProvider.git
-[submodule "glue/gonk/packages/providers/DownloadProvider"]
-	path = glue/gonk/packages/providers/DownloadProvider
-	url = git://android.git.linaro.org/platform/packages/providers/DownloadProvider.git
 [submodule "glue/gonk/packages/providers/ApplicationsProvider"]
 	path = glue/gonk/packages/providers/ApplicationsProvider
 	url = git://android.git.linaro.org/platform/packages/providers/ApplicationsProvider.git
@@ -286,9 +280,6 @@
 [submodule "glue/gonk/packages/apps/Stk"]
 	path = glue/gonk/packages/apps/Stk
 	url = git://android.git.linaro.org/platform/packages/apps/Stk.git
-[submodule "glue/gonk/packages/apps/Mms"]
-	path = glue/gonk/packages/apps/Mms
-	url = git://android.git.linaro.org/platform/packages/apps/Mms.git
 [submodule "glue/gonk/packages/apps/Provision"]
 	path = glue/gonk/packages/apps/Provision
 	url = git://android.git.linaro.org/platform/packages/apps/Provision.git
@@ -298,9 +289,6 @@
 [submodule "glue/gonk/packages/apps/VoiceDialer"]
 	path = glue/gonk/packages/apps/VoiceDialer
 	url = git://android.git.linaro.org/platform/packages/apps/VoiceDialer.git
-[submodule "glue/gonk/packages/apps/QuickSearchBox"]
-	path = glue/gonk/packages/apps/QuickSearchBox
-	url = git://android.git.linaro.org/platform/packages/apps/QuickSearchBox.git
 [submodule "glue/gonk/packages/apps/Calendar"]
 	path = glue/gonk/packages/apps/Calendar
 	url = git://android.git.linaro.org/platform/packages/apps/Calendar.git
@@ -328,24 +316,12 @@
 [submodule "glue/gonk/packages/apps/Gallery"]
 	path = glue/gonk/packages/apps/Gallery
 	url = git://android.git.linaro.org/platform/packages/apps/Gallery.git
-[submodule "glue/gonk/packages/apps/Gallery3D"]
-	path = glue/gonk/packages/apps/Gallery3D
-	url = git://android.git.linaro.org/platform/packages/apps/Gallery3D.git
-[submodule "glue/gonk/packages/apps/Bluetooth"]
-	path = glue/gonk/packages/apps/Bluetooth
-	url = git://android.git.linaro.org/platform/packages/apps/Bluetooth.git
 [submodule "glue/gonk/packages/apps/Tag"]
 	path = glue/gonk/packages/apps/Tag
 	url = git://android.git.linaro.org/platform/packages/apps/Tag.git
 [submodule "glue/gonk/packages/apps/Settings"]
 	path = glue/gonk/packages/apps/Settings
 	url = git://github.com/mkedwards/packages__apps__Settings.git
-[submodule "glue/gonk/packages/apps/HTMLViewer"]
-	path = glue/gonk/packages/apps/HTMLViewer
-	url = git://android.git.linaro.org/platform/packages/apps/HTMLViewer.git
-[submodule "glue/gonk/packages/apps/Browser"]
-	path = glue/gonk/packages/apps/Browser
-	url = git://android.git.linaro.org/platform/packages/apps/Browser.git
 [submodule "glue/gonk/packages/apps/Launcher2"]
 	path = glue/gonk/packages/apps/Launcher2
 	url = git://android.git.linaro.org/platform/packages/apps/Launcher2.git
@@ -358,9 +334,6 @@
 [submodule "glue/gonk/packages/apps/AccountsAndSyncSettings"]
 	path = glue/gonk/packages/apps/AccountsAndSyncSettings
 	url = git://android.git.linaro.org/platform/packages/apps/AccountsAndSyncSettings.git
-[submodule "glue/gonk/packages/apps/Email"]
-	path = glue/gonk/packages/apps/Email
-	url = git://android.git.linaro.org/platform/packages/apps/Email.git
 [submodule "glue/gonk/packages/apps/Protips"]
 	path = glue/gonk/packages/apps/Protips
 	url = git://android.git.linaro.org/platform/packages/apps/Protips.git
@@ -435,10 +408,10 @@
 	url = git://android.git.linaro.org/platform/hardware/broadcom/wlan.git
 [submodule "glue/gonk/hardware/ril"]
 	path = glue/gonk/hardware/ril
-	url = git://android.git.linaro.org/platform/hardware/ril.git
+	url = git://github.com/mkedwards/hardware__ril.git
 [submodule "glue/gonk/development"]
 	path = glue/gonk/development
-	url = git://android.git.linaro.org/platform/development.git
+	url = git://github.com/mkedwards/android_development.git
 [submodule "glue/gonk/ndk"]
 	path = glue/gonk/ndk
 	url = git://android.git.linaro.org/platform/ndk.git
@@ -454,12 +427,6 @@
 [submodule "glue/gonk/libcore"]
 	path = glue/gonk/libcore
 	url = git://github.com/mkedwards/platform__libcore.git
-[submodule "glue/gonk/external/webkit"]
-	path = glue/gonk/external/webkit
-	url = git://github.com/cgjones/android-webkit.git
-[submodule "glue/gonk/external/v8"]
-	path = glue/gonk/external/v8
-	url = git://github.com/cgjones/android-v8.git
 [submodule "glue/gonk/external/skia"]
 	path = glue/gonk/external/skia
 	url = git://github.com/mkedwards/external__skia.git
